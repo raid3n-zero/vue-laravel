@@ -1,5 +1,5 @@
 <template>
-    <div class="p-2 w-full">
+    <div class="p-2 w-full h-[100-20px] fixed">
         <div class="w-[40px] h-[40px] float-left cursor-pointer pt-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                 <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -17,7 +17,10 @@
         </div>
         <div class="clear-both"></div>
     </div>
+    <div class="h-[5dvh]">
+    </div>
     <router-view></router-view>
+
 </template>
 
 <script>
